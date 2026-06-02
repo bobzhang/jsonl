@@ -12,6 +12,8 @@ pub fn parse(String) -> Array[Json] raise
 
 pub async fn[R : @io.Reader] read_all(R) -> Array[Json]
 
+pub async fn read_stdin() -> Array[Json]
+
 // Errors
 
 // Types and methods

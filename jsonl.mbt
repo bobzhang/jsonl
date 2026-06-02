@@ -60,3 +60,13 @@ pub async fn[R : @io.Reader] read_all(reader : R) -> Array[Json] {
   each(reader, value => values.push(value))
   values
 }
+
+///|
+/// Reads every newline-delimited JSON value from standard input into an array.
+///
+/// This is a convenience over [read_all] for the common case of consuming a
+/// program's JSONL output from a pipe, so the caller need not import
+/// `moonbitlang/async/stdio` itself.
+pub async fn read_stdin() -> Array[Json] {
+  read_all(@stdio.stdin)
+}

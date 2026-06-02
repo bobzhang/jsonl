@@ -16,6 +16,8 @@ It is native-only because it reads from `moonbitlang/async/io` streams.
   `@io.Reader`, invoking `visit` on each parsed value in order.
 - `read_all(reader) -> Array[Json] raise` (async) — collect every value from a
   reader into an array.
+- `read_stdin() -> Array[Json] raise` (async) — collect every value from
+  standard input, so the caller need not import `moonbitlang/async/stdio`.
 
 ## Buffered Input
 
