@@ -1,0 +1,13 @@
+import {
+  "moonbitlang/async/io",
+  "moonbitlang/core/json",
+}
+
+import {
+  "moonbitlang/async",
+  "moonbitlang/async/io",
+} for "test"
+
+warnings = "+unnecessary_annotation"
+
+supported_targets = "+native"
