@@ -1,4 +1,4 @@
-# bobzhang/jsonl
+# moonbitlang/jsonl
 
 A tiny async reader for [JSON Lines](https://jsonlines.org/) (newline-delimited
 JSON, also called NDJSON). Each line is one independent JSON value; this package
