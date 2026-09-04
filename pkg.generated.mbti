@@ -1,5 +1,5 @@
 // Generated using `moon info`, DON'T EDIT IT
-package "bobzhang/jsonl"
+package "moonbitlang/jsonl"
 
 import {
   "moonbitlang/async/io",
@@ -21,4 +21,3 @@ pub async fn read_stdin() -> Array[Json]
 // Type aliases
 
 // Traits
-
