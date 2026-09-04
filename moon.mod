@@ -1,10 +1,10 @@
-name = "bobzhang/jsonl"
+name = "moonbitlang/jsonl"
 
 version = "0.2.0"
 
 readme = "README.mbt.md"
 
-repository = "https://github.com/bobzhang/jsonl"
+repository = "https://github.com/moonbitlang/jsonl"
 
 license = "Apache-2.0"
 
